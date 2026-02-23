@@ -3,10 +3,12 @@ import {
     car,
     contact,
     css,
+    digitalguru,
     estate,
     express,
     git,
     github,
+    goodgametheory,
     gsap,
     html,
     javascript,
@@ -144,6 +146,32 @@ export const experiences = [
             "Developed efficient solutions with a focus on time and space complexity, improving my ability to write optimal code under constraints.",
         ],
     },
+    {
+        title: "Frontend Web Developer (Paid Intern)",
+        company_name: "The GoodGame Theory",
+        icon: goodgametheory,
+        iconBg: "#e9f5db",
+        date: "June 2022 - November 2023 | Remote",
+        points: [
+            "Developed and maintained React.js features using TypeScript with Firebase integration for real-time database and authentication.",
+            "Contributed significantly to the Tarana app, a short-song online music player platform.",
+            "Collaborated in a remote team environment using Git for version control and structured development workflows.",
+            "Technologies: React.js, TypeScript, Firebase, Git.",
+        ],
+    },
+    {
+        title: "Full Stack Developer (Paid Intern)",
+        company_name: "Digital Guru",
+        icon: digitalguru,
+        iconBg: "#fde2e4",
+        date: "January 2025 - March 2025 | Remote",
+        points: [
+            "Developed web applications and user-facing features using HTML5, CSS, JavaScript, Node.js, EJS, Express, and MongoDB.",
+            "Built reusable, testable, and efficient backend logic with structured APIs using Express and Mongoose.",
+            "Focused on delivering clean, production-ready code with proper database integration and performance optimization.",
+            "Technologies: HTML5, CSS, JavaScript, Node.js, EJS, Express, Mongoose, MongoDB.",
+        ],
+    },
 ];
 
 export const socialLinks = [
@@ -167,7 +195,28 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
+        theme: 'btn-back-pink',
+        name: 'Podcastr – AI SaaS Podcast Creation Platform',
+        description: 'AI-powered SaaS platform for creating and managing podcasts. Built full-stack app with secure auth, transcript-to-audio, and AI thumbnail generation for seamless podcast creation.',
+        link: 'https://podcastr-sage-three.vercel.app/',
+    },
+    {
+        iconUrl: snapgram,
         theme: 'btn-back-red',
+        name: 'Real-Time Chat Application – MERN Stack',
+        description: 'Built a MERN real-time chat app with secure JWT auth, protected routes, live messaging, online status tracking, Zustand state management, and strong client/server error handling.',
+        link: 'https://mern-chatty-p36p.onrender.com/',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-yellow',
+        name: 'Notes Management App – MERN Stack with Rate Limiting',
+        description: 'Built a MERN notes app with CRUD features, REST API, proper HTTP status codes, Upstash Redis rate limiting, and a responsive UI using Tailwind CSS and DaisyUI.',
+        link: 'https://mern-thinkboard-pukz.onrender.com',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
         name: 'Obys Agency UI',
         description: 'Developed using HTML, Tailwind CSS, JavaScript, Locomotive Scroll, GSAP, ScrollTrigger, and Three.js. Features smooth scrolling and a unique gooey effect for an engaging and visually appealing experience.',
         link: 'https://obys-agency-ui.vercel.app/',
@@ -176,7 +225,7 @@ export const projects = [
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'ReFokus UI',
-        description: 'A React and Tailwind-based website with Locomotive and Framer Motion for smooth scrolling and animations. Unique sliding window animation in the project section. Creativity meets technology.',
+        description: 'A React and Tailwind-based website with Locomotive and Framer Motion for smooth scrolling and animations. Unique sliding window animation in the project section. ',
         link: 'https://refokus-ui-beta.vercel.app/',
     },
     {
@@ -185,13 +234,6 @@ export const projects = [
         name: 'Ochi UI',
         description: ' React and Tailwind-based website featuring Locomotive Scroll, Framer Motion, and Gasp for animation. Unique rolling eye animation in project section enhances visual appeal.',
         link: 'https://ochi-ui-ritesh-das-projects.vercel.app/',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Tourism Plan',
-        description: 'React and Tailwind website showcasing React Hooks (useState, useEffect), filter, map functions. Simplifies trip planning with interactive features for travelers',
-        link: 'https://tourismplan-r9uveyird-ritesh-das-projects.vercel.app/',
     },
     // {
     //     iconUrl: estate,

@@ -31,6 +31,8 @@ import gsap from './gsap-greensock.svg';
 import scolar from './Reliance_Foundation_Logo.svg'
 import sih from './SIH.svg'
 import leetcode from './leetcode.svg'
+import digitalguru from "./digitalguru.svg"
+import goodgametheory from "./goodgametheory.svg"
 
 export {
     css,
@@ -65,5 +67,7 @@ export {
     gsap,
     scolar,
     sih,
-    leetcode
+    leetcode,
+    digitalguru,
+    goodgametheory
 }
